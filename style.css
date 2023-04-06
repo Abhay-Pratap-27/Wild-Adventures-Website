@@ -1,0 +1,117 @@
+/* CSS for index.html */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('home.jpg');
+    height: 950px;
+    background-size: cover;
+    font-family: 'Fjalla One', sans-serif;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    /* border: 2px solid red; */
+
+}
+
+.left img {
+    width: 200px;
+    filter: invert(100%);
+    mix-blend-mode: multiply;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 30px 470px;
+    /* border: 2px solid yellow; */
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 44px;
+    /* border: 2px solid blue; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.navbar li a {
+    color: rgb(0, 0, 88);
+    text-decoration: none;
+    padding: 0px 16px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    /* text-decoration: underline; */
+    color: rgb(210, 200, 190);
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px 10px;
+    mix-blend-mode: multiply;
+    font-size: 16px;
+    cursor: pointer;
+    color: darkblue;
+    font-family: 'Fjalla One', sans-serif;
+
+
+
+}
+
+.btn:hover {
+    background-color: rgb(247, 245, 245);
+}
+
+
+.container {
+    margin: 78px 0px;
+    padding: 38px;
+    text-align: center;
+    width: auto;
+    font-size: 25px;
+    color: rgb(0, 0, 88);
+    ;
+}
+
+footer {
+
+    height: 100px;
+    margin-top: 600px;
+    background-color: rgb(1, 1, 45);
+    width: auto;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-icon{
+    margin: 15px 10px 20px;
+}
